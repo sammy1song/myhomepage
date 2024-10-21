@@ -1,0 +1,49 @@
+/* Style for body */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Style for div sections */
+.content-section {
+  margin: 20px;
+  padding: 20px;
+  border: 2px solid #ccc;
+  /* Box model property 1 */
+  border-radius: 8px;
+  /* Box model property 2 */
+  background-color: #fff;
+}
+
+/* Style for h1 class */
+.heading {
+  color: #333;
+}
+
+/* Style for intro paragraph */
+.intro {
+  font-size: 18px;
+  color: #666;
+}
+
+/* Style for links */
+#github-link {
+  display: inline-block;
+  margin-top: 10px;
+  text-decoration: none;
+  color: blue;
+}
+
+#github-link:hover {
+  color: green;
+  /* Change color on hover */
+}
+
+/* Style for image */
+#profile-img {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+}
